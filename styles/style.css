@@ -1,0 +1,169 @@
+/* initial styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+/* navigation top */
+
+nav.navigation-top {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navigation-top .title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    line-height: 38px;
+    padding-left: 10px;
+}
+
+nav.navigation-top nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+nav.navigation-top nav a:hover {
+    transition: 0.5s;
+    background-color: gray;
+}
+
+/* main class content */
+
+main.content {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* section subscribe */
+
+main.content section.subscribe {
+    width: max-content;
+    background-color: lightgray;
+}
+
+main.content section.subscribe ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main.content section.subscribe ul li {
+    box-shadow: 10px 8px 9px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 8px 9px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 8px 9px 3px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    background-color: black;
+    margin: 25px;
+    text-align: center;
+}
+
+main.content section.subscribe ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    background-color: black;
+    width: 250px;
+    border-radius: 4px;
+}
+
+/* About */
+
+main.about {
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px; 
+    text-align: center;
+}
+
+/* Contact */
+
+main.contact {
+    background-color: lightgray;    
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px; 
+    text-align: center;
+}
+
+main.contact .begins {
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px; 
+    text-align: center;
+}
+
+main.contact .formulir-saran {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.contact form {
+    background-color: lightsalmon;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+main.contact form label {
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+main.contact form .nama, main.contact form .email, main.contact form .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+main.contact form input, main.contact form textarea{
+    margin: 8px;
+    border: solid 3px black ;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+} 
+
+main.contact form button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
